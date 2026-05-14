@@ -3,3 +3,5 @@ cdk.out/
 .venv/
 *.zip
 *.7z
+
+*.jar
