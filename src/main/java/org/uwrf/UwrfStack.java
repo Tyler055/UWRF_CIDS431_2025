@@ -51,9 +51,11 @@ public class UwrfStack extends Stack {
         videoBucket.addEventNotification(
                 EventType.OBJECT_CREATED,
                 new LambdaDestination(videoHandler),
-                NotificationKeyFilter.builder().suffix(".mp4").build()
+                NotificationKeyFilter.builder()
+                .prefix("uploads/")
+                .suffix(".mp4")
+                .build()
         );
-
         // Grant Lambda read/write access to S3 bucket
         videoBucket.grantReadWrite(videoHandler);
 
