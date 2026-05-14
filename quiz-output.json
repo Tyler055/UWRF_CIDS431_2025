@@ -1,0 +1,95 @@
+{
+  "sourceVideo" : "SampleVideo.mp4",
+  "generatedAt" : "2026-05-14T19:00:08.440359793Z",
+  "questions" : [ {
+    "question" : "What is the primary benefit of using serverless computing?",
+    "options" : {
+      "A" : "You manage the underlying servers directly",
+      "B" : "You pay only for the compute time you actually use",
+      "C" : "It always runs faster than traditional servers",
+      "D" : "It requires no internet connection"
+    },
+    "correctAnswer" : "B"
+  }, {
+    "question" : "Which AWS service automatically scales Lambda functions?",
+    "options" : {
+      "A" : "AWS Auto Scaling",
+      "B" : "Amazon EC2",
+      "C" : "AWS Lambda itself (automatically)",
+      "D" : "Amazon ECS"
+    },
+    "correctAnswer" : "C"
+  }, {
+    "question" : "What trigger causes the Lambda function in this project to execute?",
+    "options" : {
+      "A" : "An HTTP request to API Gateway",
+      "B" : "A scheduled CloudWatch Events rule",
+      "C" : "An object uploaded to an S3 bucket",
+      "D" : "A message sent to an SQS queue"
+    },
+    "correctAnswer" : "C"
+  }, {
+    "question" : "What does AWS Transcribe produce as output?",
+    "options" : {
+      "A" : "A translated audio file",
+      "B" : "A JSON file containing the text transcript",
+      "C" : "An MP3 compressed version of the audio",
+      "D" : "A summary of the audio content"
+    },
+    "correctAnswer" : "B"
+  }, {
+    "question" : "Which AWS Bedrock model is used to generate quiz questions in this project?",
+    "options" : {
+      "A" : "Amazon Titan Text",
+      "B" : "Meta Llama 3",
+      "C" : "Anthropic Claude 3 Haiku",
+      "D" : "Mistral 7B"
+    },
+    "correctAnswer" : "C"
+  }, {
+    "question" : "What is Infrastructure as Code (IaC)?",
+    "options" : {
+      "A" : "Writing application code that runs on physical servers",
+      "B" : "Managing and provisioning infrastructure through machine-readable configuration files",
+      "C" : "A programming language for cloud services",
+      "D" : "A method to encrypt cloud resources"
+    },
+    "correctAnswer" : "B"
+  }, {
+    "question" : "What does the AWS CDK (Cloud Development Kit) allow developers to do?",
+    "options" : {
+      "A" : "Write infrastructure using familiar programming languages like Java",
+      "B" : "Deploy applications directly to physical data centers",
+      "C" : "Monitor Lambda function performance",
+      "D" : "Configure IAM users via the CLI only"
+    },
+    "correctAnswer" : "A"
+  }, {
+    "question" : "What is the purpose of an IAM role in AWS Lambda?",
+    "options" : {
+      "A" : "To specify which AWS region the function runs in",
+      "B" : "To define the memory and timeout limits for the function",
+      "C" : "To grant the function permission to access other AWS services",
+      "D" : "To encrypt the Lambda deployment package"
+    },
+    "correctAnswer" : "C"
+  }, {
+    "question" : "What format does AWS Bedrock use when you call the Anthropic Claude models via InvokeModel?",
+    "options" : {
+      "A" : "XML with a SOAP envelope",
+      "B" : "Anthropic Messages API JSON format",
+      "C" : "OpenAI Chat Completions API format",
+      "D" : "Plain text in the request body"
+    },
+    "correctAnswer" : "B"
+  }, {
+    "question" : "What is a key advantage of using Amazon S3 for storing both input videos and output quiz files?",
+    "options" : {
+      "A" : "S3 can execute code directly on stored files",
+      "B" : "S3 provides virtually unlimited scalable storage with high durability",
+      "C" : "S3 automatically transcribes audio files",
+      "D" : "S3 buckets are always private and cannot be shared"
+    },
+    "correctAnswer" : "B"
+  } ]
+}

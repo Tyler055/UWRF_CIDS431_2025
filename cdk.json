@@ -2,16 +2,10 @@
   "app": "mvn -e -q compile exec:java",
   "watch": {
     "include": ["**"],
-    "exclude": [
-      "README.md",
-      "cdk*.json",
-      "target",
-      "pom.xml",
-      "src/test"
-    ]
+    "exclude": ["README.md", "cdk*.json", "target", "pom.xml", "src/test"]
   },
   "context": {
-    "studentName": "CHANGE-ME",
+    "studentName": "TYlerT",
     "@aws-cdk/aws-lambda:recognizeLayerVersion": true,
     "@aws-cdk/core:checkSecretUsage": true,
     "@aws-cdk/core:target-partitions": ["aws", "aws-cn"]

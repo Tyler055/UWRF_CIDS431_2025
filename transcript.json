@@ -1,0 +1,61 @@
+{
+  "jobName": "quiz-cids431-apr21-2026",
+  "accountId": "123456789012",
+  "status": "COMPLETED",
+  "results": {
+    "transcripts": [
+      {
+        "transcript": "Hi, Vincent, can you hear me? Okay. Is your mic working? I'm trying to adjust the volume in the room. Usually need someone to talk. Hello? Okay, I think you're saying something, Vincent, but the speaker here is not. Can you say, can you count from 1 to 10? One, two, three, 4, 5, 6, 7, 8, 9, 10. Can't hear a thing, actually. You can hear us, right? Yeah. Okay. All right, maybe we'll get started. Today we have course evaluations, so take about 10 minutes. To do course evaluations, let me share the screen. Share my canvas window. So take about 10 minutes and we'll start up for real. 12:40. Anyone done or you need more time? Done. Ratana, we are doing the course evaluation. Everybody done? Vincent, Ratana, are you guys done with the course evaluation? Hold on, Ratana. Have to fix the volume. Okay. Okay. Anybody need more time? Maybe raise your hand. Okay. Guessing everyone's done. All right, so we are in the last few weeks of class, three weeks of class, and then finals. And no final exam, it's just a project. So I'll go over the project today, but first let's go over the topic, which is containers. Same thing as last week, except now these containers are going to be in the cloud. The time of the final, I think that's when we want to have our presentations. So, I'll go over some of that, some of the details. Okay, so companies that do use containers in the production environment, that might involve hundreds, thousands of containers because you're going to usually deploy one of these for every customer or client or user. And so when you have that scale, you need something to manage these containers. Just Docker alone is not enough for managing massive numbers of containers. Also, some of these containers might go down or they might need to be restarted automatically. That's where container orchestration comes in. Kubernetes is the industry standard for container orchestration in the cloud. AWS offers Elastic Kubernetes Service, or EKS, which lets you run Kubernetes without managing the control plane yourself. You define your desired state and Kubernetes works to maintain it. For this course, the final project is the Turnkey Cloud project, which we've been building toward. There is no final exam — just the project and presentations during finals week."
+      }
+    ],
+    "items": [
+      { "start_time": "0.27", "end_time": "0.85", "alternatives": [{"confidence": "0.99", "content": "Hi"}], "type": "pronunciation" },
+      { "start_time": "0.85", "end_time": "1.10", "alternatives": [{"confidence": "0.99", "content": "Vincent"}], "type": "pronunciation" },
+      { "start_time": "1.10", "end_time": "1.35", "alternatives": [{"confidence": "0.99", "content": "can"}], "type": "pronunciation" },
+      { "start_time": "1.35", "end_time": "1.55", "alternatives": [{"confidence": "0.99", "content": "you"}], "type": "pronunciation" },
+      { "start_time": "1.55", "end_time": "1.80", "alternatives": [{"confidence": "0.99", "content": "hear"}], "type": "pronunciation" },
+      { "start_time": "1.80", "end_time": "2.00", "alternatives": [{"confidence": "0.99", "content": "me"}], "type": "pronunciation" },
+      { "type": "punctuation", "alternatives": [{"confidence": "0.0", "content": "?"}] },
+      { "start_time": "14.35", "end_time": "14.80", "alternatives": [{"confidence": "0.99", "content": "we"}], "type": "pronunciation" },
+      { "start_time": "14.80", "end_time": "15.10", "alternatives": [{"confidence": "0.99", "content": "are"}], "type": "pronunciation" },
+      { "start_time": "15.10", "end_time": "15.40", "alternatives": [{"confidence": "0.99", "content": "in"}], "type": "pronunciation" },
+      { "start_time": "15.40", "end_time": "15.65", "alternatives": [{"confidence": "0.99", "content": "the"}], "type": "pronunciation" },
+      { "start_time": "15.65", "end_time": "15.90", "alternatives": [{"confidence": "0.99", "content": "last"}], "type": "pronunciation" },
+      { "start_time": "15.90", "end_time": "16.20", "alternatives": [{"confidence": "0.99", "content": "few"}], "type": "pronunciation" },
+      { "start_time": "16.20", "end_time": "16.60", "alternatives": [{"confidence": "0.99", "content": "weeks"}], "type": "pronunciation" },
+      { "start_time": "16.60", "end_time": "16.85", "alternatives": [{"confidence": "0.99", "content": "of"}], "type": "pronunciation" },
+      { "start_time": "16.85", "end_time": "17.20", "alternatives": [{"confidence": "0.99", "content": "class"}], "type": "pronunciation" },
+      { "type": "punctuation", "alternatives": [{"confidence": "0.0", "content": "."}] }
+    ],
+    "audio_segments": [
+      {
+        "id": 0,
+        "transcript": "Hi, Vincent, can you hear me? Okay. Is your mic working? I'm trying to adjust the volume in the room. Usually need someone to talk.",
+        "start_time": "0.27",
+        "end_time": "55.0",
+        "items": [0, 1, 2, 3, 4, 5, 6]
+      },
+      {
+        "id": 1,
+        "transcript": "All right, so we are in the last few weeks of class, three weeks of class, and then finals. And no final exam, it's just a project.",
+        "start_time": "873.0",
+        "end_time": "920.0",
+        "items": [7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+      },
+      {
+        "id": 2,
+        "transcript": "So I'll go over the project today, but first let's go over the topic, which is containers. Same thing as last week, except now these containers are going to be in the cloud.",
+        "start_time": "920.0",
+        "end_time": "972.0",
+        "items": []
+      },
+      {
+        "id": 3,
+        "transcript": "Companies that do use containers in the production environment, that might involve hundreds, thousands of containers. When you have that scale, you need something to manage these containers. Just Docker alone is not enough for managing massive numbers of containers. That's where container orchestration comes in. Kubernetes is the industry standard for container orchestration in the cloud.",
+        "start_time": "972.0",
+        "end_time": "3300.0",
+        "items": []
+      }
+    ]
+  }
+}
